@@ -1,0 +1,10 @@
+.zeitknopf {
+    border: solid 2px black;
+    font-size: x-large;
+    text-align: center;
+}
+
+.zeitknopf:hover
+{
+    background-color: antiquewhite;
+}

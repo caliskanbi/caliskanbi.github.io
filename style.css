@@ -1,0 +1,80 @@
+html {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body {
+    background: #b7bfc0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    font-size: large;
+}
+a:link, a:visited {
+    background: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover, a:active {
+    background-color: black;
+}
+
+blockquote {
+    border: 2px solid #1c94ff;
+    margin: 50px;
+}
+
+.link:link {
+    background: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+table {
+    text-align: center;
+}
+th, tr, td{
+    border: 2px outset aquamarine;
+    border-radius: 10px;
+}
+
+tr:hover {
+    background-color: red;
+}
+/*Einstellen der Menüleiste ab hier*/
+ul {
+   list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    background-color: #333333;
+}
