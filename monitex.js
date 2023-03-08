@@ -18,18 +18,29 @@ const blogPosts = [
     title: "Facebook",
     tags: ["b2c", "social"],
   },
+  {
+    title: "TEST WITH ALL",
+    tags: ["b2c", "b2b"]
+  }
 ];
 
 // Get DOM elements
-const selectBtn = document.querySelector(".select-btn"),
-  items = document.querySelectorAll(".item"),
-  blogPostsContainer = document.getElementById("blogPosts");
+const selectBtn1 = document.querySelector("#select-btn1"),
+    selectBtn2 = document.querySelector("#select-btn2"),
+    selectBtn3 = document.querySelector("#select-btn3"),
+    items = document.querySelectorAll(".item"),
+    blogPostsContainer = document.getElementById("blogPosts");
 
 // Add event listener to toggle dropdown
-selectBtn.addEventListener("click", () => {
-  selectBtn.classList.toggle("open");
+selectBtn1.addEventListener("click", () => {
+  selectBtn1.classList.toggle("open");
 });
-
+selectBtn2.addEventListener("click", () => {
+  selectBtn2.classList.toggle("open");
+});
+selectBtn3.addEventListener("click", () => {
+  selectBtn3.classList.toggle("open");
+});
 // Add event listener to filter blog posts
 items.forEach((item) => {
   item.addEventListener("click", () => {

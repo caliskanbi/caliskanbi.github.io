@@ -16,7 +16,7 @@
     --color-light: rgba(132, 139, 200, 0.18);
     --color-primary-variant:#111e88;
     --color-dark-variant:#677483;
-    --color-background: #f6f6f9;
+    --color-background: #f6f6f7;
     --card-border-radius: 2rem;
     --border-radius-1: 0.4rem;
     --border-radius-2: 0.8rem;
@@ -284,6 +284,7 @@ main section{
     align-items: center;
     justify-content: space-between;
     padding: 0 16px;
+    margin-right: 5px; /* Damit die Boxen einen kleinen Abstand haben bei Filters*/
     border-radius: 8px;
     cursor: pointer;
     background-color: #fff;
