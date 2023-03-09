@@ -2,7 +2,7 @@
 const blogPosts = [
   {
     
-    tags: ["b2c", "allrounder"],
+    tags: ["b2c", "allrounder", "cheap", "image", "short-videos", "branded-content"],
     image: "facebook.jpeg",
     title: "Instagram",
     text: "Instagram ist eine der populärsten Plattformen weltweit.",
@@ -11,16 +11,20 @@ const blogPosts = [
   {
     
     title: "TikTok",
-    tags: ["b2b", "niche"],
+    tags: ["b2c", "allrounder", "cheap", "short-videos", "branded-content"],
   },
   {
     
     title: "Facebook",
-    tags: ["b2c", "social"],
+    tags: ["b2c", "allrounder", "cheap", "image", "short-videos", "branded-content" ],
   },
   {
-    title: "TEST WITH ALL",
-    tags: ["b2c", "b2b"]
+    title: "Pinterest",
+    tags: ["b2c", "b2b", "niche", "expensive", "image", "short-videos", "branded-content", "shopping",   ]
+  },
+  {
+    title: "Quora",
+    tags: ["b2c", "b2b", "niche", "expensive", "text", "display"   ]
   }
 ];
 
@@ -178,7 +182,88 @@ menu_tests.addEventListener('click', () => {
 
 
 
+/* ACTIVE CONTENT */ 
+const category_userStatistics = document.getElementById('category_userStatistics');
+const category_UseCases = document.getElementById('category_UseCases');
+const category_bestPractices = document.getElementById('category_bestPractices');
+const category_caseStudies = document.getElementById('category_caseStudies');
+const category_marketingExperiments = document.getElementById('category_marketingExperiments');
 
 
+const content_userStatistics = document.getElementById('content_userStatistics');
+const content_UseCases = document.getElementById('content_UseCases');
+const content_bestPractices = document.getElementById('content_bestPractices');
+const content_caseStudies = document.getElementById('content_caseStudies');
+const content_marketingExperiments = document.getElementById('content_marketingExperiments');
 
+
+category_userStatistics.addEventListener('click', () => {
+  content_userStatistics.classList.remove('hidden');
+  content_UseCases.classList.add('hidden');
+  content_bestPractices.classList.add('hidden');
+  content_caseStudies.classList.add('hidden');
+  content_marketingExperiments.classList.add('hidden');
+
+  category_userStatistics.classList.add('active');
+  category_UseCases.classList.remove('active');
+  category_bestPractices.classList.remove('active');
+  category_caseStudies.classList.remove('active');
+  category_marketingExperiments.classList.remove('active');
+});
+
+category_UseCases.addEventListener('click', () => {
+  content_userStatistics.classList.add('hidden');
+  content_UseCases.classList.remove('hidden');
+  content_bestPractices.classList.add('hidden');
+  content_caseStudies.classList.add('hidden');
+  content_marketingExperiments.classList.add('hidden');
+
+  category_userStatistics.classList.remove('active');
+  category_UseCases.classList.add('active');
+  category_bestPractices.classList.remove('active');
+  category_caseStudies.classList.remove('active');
+  category_marketingExperiments.classList.remove('active');
+});
+
+category_bestPractices.addEventListener('click', () => {
+  content_userStatistics.classList.add('hidden');
+  content_bestPractices.classList.remove('hidden');
+  content_UseCases.classList.add('hidden');
+  content_caseStudies.classList.add('hidden');
+  content_marketingExperiments.classList.add('hidden');
+
+  category_userStatistics.classList.remove('active');
+  category_bestPractices.classList.add('active');
+  category_UseCases.classList.remove('active');
+  category_caseStudies.classList.remove('active');
+  category_marketingExperiments.classList.remove('active');
+});
+
+category_caseStudies.addEventListener('click', () => {
+  content_userStatistics.classList.add('hidden');
+  content_bestPractices.classList.add('hidden');
+  content_UseCases.classList.add('hidden');
+  content_caseStudies.classList.remove('hidden');
+  content_marketingExperiments.classList.add('hidden');
+
+  category_userStatistics.classList.remove('active');
+  category_bestPractices.classList.remove('active');
+  category_UseCases.classList.remove('active');
+  category_caseStudies.classList.add('active');
+  category_marketingExperiments.classList.remove('active');
+});
+
+category_marketingExperiments.addEventListener('click', () => {
+  content_userStatistics.classList.add('hidden');
+  content_bestPractices.classList.add('hidden');
+  content_UseCases.classList.add('hidden');
+  content_caseStudies.classList.add('hidden');
+  content_marketingExperiments.classList.remove('hidden');
+
+  category_userStatistics.classList.remove('active');
+  category_bestPractices.classList.remove('active');
+  category_UseCases.classList.remove('active');
+  category_caseStudies.classList.remove('active');
+  category_marketingExperiments.classList.add('active');
+});
 

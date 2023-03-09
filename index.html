@@ -90,7 +90,7 @@
                     <div class="mc-container">
                       <!-- MC Selector -->
                       <div class="select-btn" id="select-btn1">
-                        <span class="btn-text">Select Options</span>
+                        <span class="btn-text">Select Audience</span>
                         <span class="arrow-dwn">
                           <i class="fa-solid fa-chevron-down"></i>
                         </span>
@@ -128,37 +128,67 @@
                     <div class="mc-container">
                       <!-- MC Selector -->
                       <div class="select-btn" id="select-btn2">
-                        <span class="btn-text">Select Options</span>
+                        <span class="btn-text">Select Ad-Budget</span>
                         <span class="arrow-dwn">
                           <i class="fa-solid fa-chevron-down"></i>
                         </span>
                       </div>
                   
                       <ul class="list-items" id="option2">
-                        <li class="item" data-value="b2b">
+                        <li class="item" data-value="image">
                           <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                           </span>
-                          <span class="item-text">B2B</span>
+                          <span class="item-text">Image</span>
                         </li>
-                        <li class="item" data-value="b2c">
+                        <li class="item" data-value="short-videos">
                           <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                           </span>
-                          <span class="item-text">B2C</span>
+                          <span class="item-text">Video / Short-Video</span>
                         </li>
-                        <li class="item" data-value="allrounder">
+                        <li class="item" data-value="branded-content">
                           <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                           </span>
-                          <span class="item-text">allrounder</span>
+                          <span class="item-text">Branded Content</span>
                         </li>
-                        <li class="item" data-value="niche">
+                        <li class="item" data-value="display">
                           <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                           </span>
-                          <span class="item-text">niche</span>
+                          <span class="item-text">Display Ads</span>
                         </li>
+                        <li class="item" data-value="text">
+                            <span class="checkbox">
+                              <i class="fa-solid fa-check check-icon"></i>
+                            </span>
+                            <span class="item-text">Text based</span>
+                          </li>
+                          <li class="item" data-value="shopping">
+                            <span class="checkbox">
+                              <i class="fa-solid fa-check check-icon"></i>
+                            </span>
+                            <span class="item-text">Shopping</span>
+                          </li>
+                          <li class="item" data-value="niche">
+                            <span class="checkbox">
+                              <i class="fa-solid fa-check check-icon"></i>
+                            </span>
+                            <span class="item-text">Display Ads</span>
+                          </li>
+                          <li class="item" data-value="niche">
+                            <span class="checkbox">
+                              <i class="fa-solid fa-check check-icon"></i>
+                            </span>
+                            <span class="item-text">Display Ads</span>
+                          </li>
+                          <li class="item" data-value="niche">
+                            <span class="checkbox">
+                              <i class="fa-solid fa-check check-icon"></i>
+                            </span>
+                            <span class="item-text">Display Ads</span>
+                          </li>
                       </ul>
                     </div>
                   
@@ -166,36 +196,30 @@
                     <div class="mc-container">
                         <!-- MC Selector -->
                         <div class="select-btn" id="select-btn3">
-                        <span class="btn-text">Select Options</span>
+                        <span class="btn-text">Select Ad-Costs</span>
                         <span class="arrow-dwn">
                             <i class="fa-solid fa-chevron-down"></i>
                         </span>
                         </div>
                     
                         <ul class="list-items" id="option3">
-                        <li class="item" data-value="value1">
+                        <li class="item" data-value="cheap">
                             <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                             </span>
-                            <span class="item-text">Option 1</span>
+                            <span class="item-text">Cheap</span>
                         </li>
-                        <li class="item" data-value="value2">
+                        <li class="item" data-value="middle">
                             <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                             </span>
-                            <span class="item-text">Option 2</span>
+                            <span class="item-text">Normal</span>
                         </li>
-                        <li class="item" data-value="value3">
+                        <li class="item" data-value="expensive">
                             <span class="checkbox">
                             <i class="fa-solid fa-check check-icon"></i>
                             </span>
-                            <span class="item-text">Option 3</span>
-                        </li>
-                        <li class="item" data-value="value4">
-                            <span class="checkbox">
-                            <i class="fa-solid fa-check check-icon"></i>
-                            </span>
-                            <span class="item-text">Option 4</span>
+                            <span class="item-text">High</span>
                         </li>
                         </ul>
                     </div>
@@ -228,33 +252,31 @@
                 <h2>Categories</h2>
                 <div class="trend-container">
                     
-                    <div class="active-trend-box">
+                    <div class="active-trend-box" id="category_userStatistics">
                         <span class="material-icons-sharp">trending_up</span>
                         <a>User Statistics</a>
                     </div>
-                    <div class="trend-box">
+                    <div class="trend-box" id="category_UseCases">
                         <span class="material-icons-sharp">people</span>
                         <a>UseCases</a>
                     </div>
-                    <div class="trend-box">
+                    <div class="trend-box" id="category_bestPractices">
                         <span class="material-icons-sharp">bolt</span>
                         <a>Best Practices</a>
                     </div>
-                    <div class="trend-box">
+                    <div class="trend-box" id="category_caseStudies">
                         <span class="material-icons-sharp">newspaper</span>
                         <a>Case Studies</a>
                     </div>
-                    <div class="trend-box">
+                    <div class="trend-box" id="category_marketingExperiments">
                         <span class="material-icons-sharp">show_chart</span>
                         <a>Marketing Experiments</a>
                     </div>
                     
                 </div>
 
-
-                
-
-                <!-- BLOG SECTION -------------------------------------------------------->
+                <div id="content_userStatistics" class="active">
+                    <!-- BLOG SECTION -------------------------------------------------------->
                 <section id="blog">
                     
                     <!--------INSTAGRAM--------------->
@@ -438,6 +460,209 @@
                     </div>
 
                 </section>
+                </div>
+                <div id="content_UseCases" class="hidden">
+                    <section id="blog">
+                    
+                        <!--------INSTAGRAM--------------->
+                        <!-- Blog Container -->
+                        <div class="blog-container">
+                            <!-- Blog Box -->
+                            <div class="blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">USE CASE #1</a>
+                                    <p> Advertisers could reach 1.318 billion users on Instagram in January 2023,(a) placing it 4th in our ranking of the worlds mostactive social media platforms</p>
+                                    <a href="https://datareportal.com/essential-instagram-stats">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------FACEBOOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box" id="facebook-blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">USE CASE #2</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------TIKTOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">USE CASE #3</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id="content_bestPractices" class="hidden">
+                    <section id="blog">
+                    
+                        <!--------INSTAGRAM--------------->
+                        <!-- Blog Container -->
+                        <div class="blog-container">
+                            <!-- Blog Box -->
+                            <div class="blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Best Practices #1</a>
+                                    <p> Advertisers could reach 1.318 billion users on Instagram in January 2023,(a) placing it 4th in our ranking of the worlds mostactive social media platforms</p>
+                                    <a href="https://datareportal.com/essential-instagram-stats">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------FACEBOOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box" id="facebook-blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Best Practices #2</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------TIKTOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box">
+                                <img src="" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Best Practices #3</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id="content_caseStudies" class="hidden">
+                    <section id="blog">
+                    
+                        <!--------INSTAGRAM--------------->
+                        <!-- Blog Container -->
+                        <div class="blog-container">
+                            <!-- Blog Box -->
+                            <div class="blog-box">
+                                <img src="./images/instagram-for-bloggers.png" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">INSTAGRAM STATISTICS AND TRENDS</a>
+                                    <p> Advertisers could reach 1.318 billion users on Instagram in January 2023,(a) placing it 4th in our ranking of the worlds mostactive social media platforms</p>
+                                    <a href="https://datareportal.com/essential-instagram-stats">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------FACEBOOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box" id="facebook-blog-box">
+                                <img src="./images/facebook.jpeg" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Facebook - the informative Overview</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------TIKTOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box">
+                                <img src="./images/tiktok.png" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Tiktok - the informative Overview</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+                </div>
+                <div id="content_marketingExperiments" class="hidden">
+                    <section id="blog">
+                    
+                        <!--------INSTAGRAM--------------->
+                        <!-- Blog Container -->
+                        <div class="blog-container">
+                            <!-- Blog Box -->
+                            <div class="blog-box">
+                                <img src="./images/instagram-for-bloggers.png" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">INSTAGRAM STATISTICS AND TRENDS</a>
+                                    <p> Advertisers could reach 1.318 billion users on Instagram in January 2023,(a) placing it 4th in our ranking of the worlds mostactive social media platforms</p>
+                                    <a href="https://datareportal.com/essential-instagram-stats">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------FACEBOOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box" id="facebook-blog-box">
+                                <img src="./images/facebook.jpeg" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Facebook - the informative Overview</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--------TIKTOK--------------->
+                        <div class="blog-container">
+                            <div class="blog-box">
+                                <img src="./images/tiktok.png" alt="">
+                                <div class="blog-text">
+                                    <span>01. März 2023/ User Statistics</span>
+                                    <a href="#" class="blog-title">Tiktok - the informative Overview</a>
+                                    <p> Wurden zunächst die wenigen Zeilen von „Lorem ipsum“ im Blindtext fortlaufend wiederholt, so dient heute der Cicero-Text als 
+                                        Basis vieler Lorem-ipsum-Generatoren, die darauf aufbauend längere Abschnitte erzeugen. Die Wortfolge ist so 
+                                        weithin üblich, dass viele Desktop-Publishing-Programme einen Menüpunkt für Blindtext haben, der eine Sequenz erzeugt, die mit „Lorem ipsum“ beginnt.</p>
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+                </div>
+        
+
+
+                
+
+                
             </div> 
 <!-- END OF CONTENT SECTION -------------------------------------------------------->
             
